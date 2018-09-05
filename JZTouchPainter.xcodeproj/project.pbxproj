@@ -13,6 +13,7 @@
 		E8C87A8D2132DCC9003A8A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C87A8C2132DCC9003A8A90 /* Assets.xcassets */; };
 		E8C87A902132DCC9003A8A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C87A8E2132DCC9003A8A90 /* LaunchScreen.storyboard */; };
 		E8C87A932132DCCA003A8A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C87A922132DCCA003A8A90 /* main.m */; };
+		E8C87A9C2132DD62003A8A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C87A9B2132DD62003A8A90 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E8C87A8F2132DCC9003A8A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8C87A912132DCCA003A8A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C87A922132DCCA003A8A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8C87A992132DD22003A8A90 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		E8C87A9B2132DD62003A8A90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C87A9C2132DD62003A8A90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,7 @@
 			children = (
 				E8C87A822132DCC7003A8A90 /* JZTouchPainter */,
 				E8C87A812132DCC7003A8A90 /* Products */,
+				E8C87A9A2132DD62003A8A90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +72,17 @@
 				E8C87A8E2132DCC9003A8A90 /* LaunchScreen.storyboard */,
 				E8C87A912132DCCA003A8A90 /* Info.plist */,
 				E8C87A922132DCCA003A8A90 /* main.m */,
+				E8C87A992132DD22003A8A90 /* Mark.h */,
 			);
 			path = JZTouchPainter;
+			sourceTree = "<group>";
+		};
+		E8C87A9A2132DD62003A8A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C87A9B2132DD62003A8A90 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
